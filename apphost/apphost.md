@@ -39,11 +39,13 @@ Applications can run in an AIO appliance or in the case of a distributed archite
 -   Navigate to `System and License Management`
 -   Under Display switch to `Systems`
 -   Locate `Deployment Actions` and click `Add Host`
--   Enter host information. ![App host information](./assets/host_information.png "App host information")
+-   Enter host information. <img src="./assets/host_information.png" alt="App host information" style="height: 100px; width:100px;"/>
 -   Wait for the host to be added. The newly added host should be visible in the table of hosts. ![Adding host to the deployment](./assets/adding_host.png "Adding host to the deployment")
 -   Perform a `deployment`
 -   Migrate the applications to the app host.Click `Change to where apps are run`. The following window should appear. ![Migrating apps](./assets/migrate_apps.png "Migrating apps")
--   Migration in progress. ![Migration in progress](./assets/migration_progress.png "Migration in progress")
+-   Migration in progress. <img src="././assets/migration_progress.png" alt="Migration in progress" style="height: 100px; width:100px;"/>
 -   Verify that the applications are running on the app host. Run `docker ps`. You should see something similar to the output below.
 
 > `[root@app-host ~]# docker ps CONTAINER ID IMAGE COMMAND CREA NAMES 8e36dcc580a7 console.localdeployment:5000/qapp/1651:4.0.0-20210825194856 "sh /opt/app-root/bi…" 3 ho774->5000/tcp qapp-1701-UwRGJdpI 9f68f42358cc console.localdeployment:5000/qapp/1601:2.2.0-20210708134505 "sh /opt/app-root/bi…" 3 ho773->5000/tcp qapp-1651-v3hgTgRV 2befafa5f829 console.localdeployment:5000/qapp/1553:2.1.1-20210706234215 "sh /start_container…" 3 ho772->5000/tcp qapp-1603-90onWvnb 6f31e9131561 console.localdeployment:5000/qapp/1401:7.0.2-20210608115811 "sh /opt/app-root/bi…" 3 ho771->5000/tcp qapp-1451-BKPtZnAp 4f275fa0ae12 console.localdeployment:5000/qapp/1251:1.1.0-20210525000559 "sh /start_container…" 3 ho770->5000/tcp qapp-1301-E2DqKyUZ 843ca321dd2a console.localdeployment:5000/qapp/1102:3.2.0-20210825213427 "sh /opt/app-root/bi…" 4 ho769->5000/tcp qapp-1152-56O7flRs 34ef35188871 console.localdeployment:5000/qapp/1151:3.4.1-20210825214653 "sh /opt/app-root/bi…" 4 ho768->5000/tcp qapp-1201-0DQj30Oy [root@app-host ~]#`
+
+![Migration in progress](./assets/migration_progress.png "Migration in progress")
