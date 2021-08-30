@@ -20,9 +20,9 @@ Applications can run in an AIO appliance or in the case of a distributed archite
 
 ### **`Deploying an App Host`**
 
-1.  Install an app host. The `ISO` that has been used to install the console can install the app host as well.<img src="./assets/RHEL_install.png " alt="RHEL Installation" height="400px" width="550px"/>
-2.  Assign the app host as the appliance type.<img src="./assets/app_host_appliance.png" alt="App host appliance" height="400px" width="550px"/>
-3.  Assign by functionality.<img src="./assets/assign_functionality.png" alt="App host functionality" height="400px" width="550px" />
+1.  Install an app host. The `ISO` that has been used to install the console can install the app host as well.<img src="./assets/RHEL_install.png " alt="RHEL Installation" height="400px" width="550px"/> <br>
+2.  Assign the app host as the appliance type.<img src="./assets/app_host_appliance.png" alt="App host appliance" height="400px" width="550px"/> <br>
+3.  Assign by functionality.<img src="./assets/assign_functionality.png" alt="App host functionality" height="400px" width="550px" /> <br>
 4.  Specify the type of setup. If we are setting up high-availability pair then choose the second option.<img src="./assets/setup_type.png" alt="Type of setup" height="400px" width="550px" />
 5.  Select the time zone continent.<img src="./assets/time_zone_continent.png" alt="time zone continent" height="400px" width="550px" />
     5.1 Select time zone region.<img src="./assets/time_zone_region.png" alt="Time zone region" height="400px" width="550px" />
