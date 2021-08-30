@@ -40,7 +40,7 @@ Applications can run in an AIO appliance or in the case of a distributed archite
 -   Under Display switch to `Systems`
 -   Locate `Deployment Actions` and click `Add Host`
 -   Enter host information.
--   <img src="./assets/host_information.png" alt="App host information" height="100%" width="100%"/>
+-   <img src="./assets/host_information.png" alt="App host information" height="400px" width="550px"/>
 -   Wait for the host to be added. The newly added host should be visible in the table of hosts. ![Adding host to the deployment](./assets/adding_host.png "Adding host to the deployment")
 -   Perform a `deployment`
 -   Migrate the applications to the app host.Click `Change to where apps are run`. The following window should appear. ![Migrating apps](./assets/migrate_apps.png "Migrating apps")
