@@ -39,10 +39,10 @@ Applications can run in an AIO appliance or in the case of a distributed archite
 5.  Select the time zone continent.
    
    <img src="./assets/time_zone_continent.png" alt="time zone continent" height="400px" width="550px" />
+   
+   5.1 Select time zone region.
 
-    5.1 Select time zone region.
-
-    <img src="./assets/time_zone_region.png" alt="Time zone region" height="400px" width="550px" />
+   <img src="./assets/time_zone_region.png" alt="Time zone region" height="400px" width="550px" />
 
 6.  Set internet protocol settings .
 
@@ -58,11 +58,11 @@ Applications can run in an AIO appliance or in the case of a distributed archite
 
 9.  Enter the root password.
 
-    <img src="./assets/root_password.png" alt="Root password" height="400px" width="550px" />
+   <img src="./assets/root_password.png" alt="Root password" height="400px" width="550px" />
 
 10. Wait for the installation to complete.The following is displayed when the installation is completed.
 
-    <img src="./assets/installation_complete.png" alt="installation complete" height="400px" width="550px" />
+   <img src="./assets/installation_complete.png" alt="installation complete" height="400px" width="550px" />
 
 > QRadar is not aware of the app host after the installation. Therefore we need to add it to the deployment
 
